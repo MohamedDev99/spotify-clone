@@ -4,7 +4,11 @@ function login({ providers }) {
     console.log(providers);
     return (
         <div className="bg-black grid place-items-center min-h-screen w-ful">
-            <img className="mb-5 w-52" src="https://links.papareact.com/9xl" alt="" />
+            <img
+                className="mb-5 w-96"
+                src="https://spotlightstudio.org/wp-content/uploads/2019/12/image-gallery-spotify-logo-21.png"
+                alt=""
+            />
             {Object.values(providers).map((provider) => (
                 <div
                     key={provider.name}
